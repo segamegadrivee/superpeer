@@ -520,6 +520,10 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -625,6 +629,30 @@ body {
   margin-right: auto;
 }
 
+.mb-28 {
+  margin-bottom: 7rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -641,6 +669,18 @@ body {
   display: flex;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -655,6 +695,14 @@ body {
 
 .max-w-lg {
   max-width: 32rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .flex-col {
@@ -689,6 +737,32 @@ body {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-orange-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\/src\/assets\/bg-videocalls\.svg\'\)\] {
+  background-image: url('./src/assets/bg-videocalls.svg');
+}
+
+.bg-\[url\(\'\/src\/assets\/bg-videocalls\.svg\'\)\] {
+  background-image: url('/src/assets/bg-videocalls.svg');
+}
+
+.bg-\[url\(\'\.\/src\/assets\/hero__img\.png\'\)\] {
+  background-image: url('./src/assets/hero__img.png');
+}
+
+.bg-\[url\(\'\/src\/assets\/hero__img\.png\'\)\] {
+  background-image: url('/src/assets/hero__img.png');
 }
 
 .px-52 {
@@ -742,6 +816,14 @@ body {
   padding-top: 2rem;
 }
 
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -755,6 +837,16 @@ body {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-normal {
